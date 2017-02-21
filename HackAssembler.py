@@ -47,6 +47,7 @@ def main():
 			out.write('\n')
 	
 	parser.close()
+	out.close()
 
 def to_bin(number):
 		number = int(number) + 32768
